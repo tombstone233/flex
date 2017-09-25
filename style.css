@@ -1,0 +1,139 @@
+body {
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #E2E2E2;
+    color: #595B66;
+    max-width: 1024px;
+    font-family: "微软雅黑"
+}
+
+h1,
+h2,
+h3,
+h4 {
+    padding: 5px 0;
+    color: #797979;
+}
+
+h1,
+h2 {
+    border-bottom: solid 2px #797979;
+}
+
+p {
+    font-size: 15px;
+    background: #797979;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    line-height: 2;
+}
+
+a {
+    color: #FFD200;
+}
+
+.box {
+    background-color: #ffffff;
+    margin: 0 0 55px;
+    display: flex;
+}
+
+.box-tall {
+    height: 800px;
+}
+
+.box-item {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    vertical-align: middle;
+    margin: 5px;
+    background-color: #EF4E3D;
+    font-size: 100px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.item-tall {
+    height: 400px;
+    line-height: 400px;
+}
+
+.box-1 {
+    flex-direction: row;
+}
+
+.box-2 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.box-3 {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box-4 {
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.box-5 {
+    flex-flow: row nowrap;
+}
+
+.box-6 {
+    justify-content: flex-start;
+}
+
+.box-7 {
+    justify-content: flex-end;
+}
+
+.box-8 {
+    justify-content: center;
+}
+
+.box-9 {
+    justify-content: space-between;
+}
+
+.box-10 {
+    justify-content: space-around;
+}
+
+.box-11 {
+    align-items: flex-start;
+}
+
+.box-12 {
+    align-items: flex-end;
+}
+
+.box-13 {
+    align-items: center;
+}
+
+.box-14 {
+    align-items: baseline;
+}
+
+.box-14 .box-item{
+    font-size: 88px;
+    line-height: initial;
+    text-decoration: underline;
+}
+
+.box-14 .item-tall{
+    font-size: 122px;
+    line-height: initial;
+}
+
+.box-15 {
+    align-items: stretch;
+}
+
+.box-15 .box-item {
+    height: auto;
+}
